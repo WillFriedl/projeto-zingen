@@ -44,7 +44,7 @@
   font-size: 1.125rem;
 }
 
-.btn[aria-label] {
+.btn[aria-label] {  /* ARIA-LABEL USADO PARA PODER USAR GRADIENT NA FONTE */
   position: relative;
 
   &::before {
@@ -59,7 +59,7 @@
     content: attr(aria-label);
     background: var(--btn-bg-color);
 
-    -webkit-background-clip: text; /* FAZ UM RECORTE DO QUADRADO ENVOLTA DO TEXTO */
+    -webkit-background-clip: text; /* FAZ UM RECORTE DO QUADRADO EM VOLTA DO TEXTO */
     background-clip: text;
 
     color: transparent;
