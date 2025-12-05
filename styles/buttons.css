@@ -31,7 +31,23 @@
   -webkit-background-clip: initial;
   background-clip: initial;
   color: var(--btn-color);
+}
+.btn-svg {
+  justify-content: center;
+  width: 8.062rem;
+  height: 3rem;
+  background-image: url(../assets/icons/button.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 1rem;
+}
 
+.btn-svg:hover {
+  width: 8.062rem;
+  height: 3rem;
+  background: url(../assets/icons/button-hover.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .btn-sm {
@@ -78,6 +94,15 @@
     padding: .75rem 1.5rem;
     font-size: var(--fs-base);
   }
+
+  .btn-svg,
+  .btn-svg:hover {
+    width: 9.687rem;
+    height: 3.5rem;
+
+    font-size: 1.125rem;
+  }
+  
 
   .btn-md {
     padding: 1rem 2rem;
