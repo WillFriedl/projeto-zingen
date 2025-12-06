@@ -1,0 +1,69 @@
+#download {
+  
+  .card {
+    position: relative;
+    padding: 3rem 1.5rem 15rem;
+    
+    & > img {
+      width: 14.5rem;
+      position: absolute;
+      bottom: 0;
+      right: -3.5rem;
+    }
+  }
+
+  & .buttons {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+    & .button {
+      display: flex;
+      align-items: center;
+      width: 11.125rem;
+      height: 3.5rem;
+      padding: .75rem;
+      gap: .5rem;
+      border: 1px solid var(--text-color-secondary);
+      border-radius: .5rem;
+      background-color: var(--bg-color);
+
+      & div {
+        line-height: 1;
+      }
+
+      & p {
+        all: unset;
+        font-size: .75rem;
+        color: var(--text-color-secondary);
+        
+      }
+
+      & h2 {
+        font: var(--fw-md) 1.25rem var(--ff-sans) ;
+      }
+    }
+  }
+
+  @media (width >= 80em) {
+    .card {
+      padding: 8.75rem 5rem;
+
+      & > div:first-child {
+        max-width: 40rem;
+      }
+
+      & > img {
+        width: 29.125rem;
+      }
+    }
+
+    & .buttons  {
+      & a:first-child {
+       & .button {
+        width: 10rem;
+       }
+      }
+    }
+  }
+
+}
