@@ -29,6 +29,7 @@
 
       & div {
         line-height: 1;
+        gap: .125rem;
       }
 
       & p {
