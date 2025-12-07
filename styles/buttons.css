@@ -72,7 +72,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1px;
+    inset: 1.5px;
     background-color: var(--bg-color);
   }
 
