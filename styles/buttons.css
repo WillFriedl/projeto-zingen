@@ -36,7 +36,7 @@
   justify-content: center;
   width: 8.062rem;
   height: 3rem;
-  background-image: url(../assets/icons/button.svg);
+  background: url(../assets/icons/button.svg);
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 1rem;

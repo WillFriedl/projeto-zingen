@@ -15,7 +15,7 @@ footer {
     gap: 4rem;
   }
 
-  & .top top {
+  & .top ul {
     align-content: start;
   }
 
